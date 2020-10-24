@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+    --orange-color: #FD921E;
+    --yellow-color: #FED219;
+    --yellow-bg-color: rgb(254, 210, 25, 0.3);
+    --bright-red-color: #FD5D3D;
+    --green-color: #3A9A3A;
+    --blue-color: rgb(6, 178, 188);
+    --dark-blue-color: #123958;
+    --black-color: #212121;
+
+    --header-font: "montserrat", sans-serif;
+    --body-font: "poppins", sans-serif;
+}
+
+.bgYellow {
+    background-color: var(--yellow-bg-color);
+    /*    margin-left: 0px;*/
+}
+
+.container-fluid {
+    /*    padding: 0 2em;*/
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "montserrat", sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.yellow {
+    color: var(--yellow-color)
+}
+
+.orange {
+    color: var(--orange-color)
+}
+
+.blue {
+    color: var(--blue-color)
+}
+
+.bright-red {
+    color: var(--bright-red-color)
+}
+
+.green {
+    color: var(--green-color);
+}
+
+.dark-blue {
+    color: var(--dark-blue-color)
+}
+
+svg {
+    /*    text-align: left;*/
+    /*    width: 104%;*/
+    /*    margin-left: -10px;*/
+
+    /*
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    padding-right: 0px;
+    padding-left: 0px;
+*/
+
+    /*    margin: 0px -0.75rem -60px;*/
+    width: 100%;
+}
+
+.dividerFigure {
+    margin: 0px -0.75rem -40px;
+}
+
+.dividerFigureTop {
+    margin: -40px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    color: var(--orange-color);
+    border: 10px solid;
+    border-radius: 50%;
+    display: inline;
+}
+
+.skinny {
+    padding: 0;
+    margin: -20px 0px;
+}
+
+.meFigure
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    ...
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .dividerFigure {
+        /*        margin-bottom: -60px;*/
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .dividerFigure {
+        margin-bottom: -60px;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .dividerFigure {
+        margin-bottom: -90px;
+    }
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    ...
+}
