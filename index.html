@@ -9,15 +9,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <title>My Portfolio! - Anna Dagbjört</title>
+    <meta name="description" content="This is my third semester portfolio - <3 Anna Dagbjört Styrmisdóttir" />
 </head>
 
 <body>
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light  sticky-top ">
-            <div class="container-fluid justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+            <div class="container-fluid">
 
                 <img src="icons/anna-logo-2020-03.png" alt="" width="200px" class=" ml-3" class="logo">
 
@@ -25,7 +26,7 @@
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end align-self-start text-right m-4" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active pl-4 green" aria-current="page" href="#whoAmI">Who am I ?</a>
                         <a class="nav-link active pl-4" href="#myWork">My Work</a>
@@ -59,9 +60,9 @@
             <!--About me-->
             <div class="bgYellow">
                 <div class="container">
-                    <div class="row aboutMe col-xxl-10 offset-xxl-1 pt-5 px-5 px-lg-0">
+                    <div id="whoAmI" class="row aboutMe col-xxl-10 offset-xxl-1 py-5 px-5 px-lg-0">
 
-                        <h1 class="col-12 bright-red pt-5">Who am I ?</h1>
+                        <h1 class="col-12 bright-red pt-5 mt-5">Who am I ?</h1>
                         <div class="leftSide col-lg-6">
                             <p class="aboutMeBullets col-5 offset-2 offset-lg-6">born in 1997</p>
                             <p class="aboutMeBullets col-12 col-lg-9 pl-lg-4">3rd semester multimedia design student</p>
@@ -83,67 +84,88 @@
                         </figure>
                     </div>
                 </div>
+
             </div>
 
             <!--            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".collapseThisTak" aria-expanded="false" aria-controls="collapseThisTak">Toggle second element</button>-->
             <!--            <div class="collapse collapseThisTak">-->
 
             <!--      Tools         -->
+            <svg class="svgTeam relati" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
+                <path d="M1643,62v78H-1V53.8c128.73-15.15,421.67,10.3,646.09,2.83C859,49.51,1305,34,1643,51.88" style="fill:#FDF2C9" />
+            </svg>
             <div class="container">
-                <div class="row py-3 mb-5 col-xl-10 offset-xl-1">
+                <div class="row pt-3 col-xl-10 offset-xl-1">
+                    <!--
                     <figure class="dividerFigureTop col-12">
                         <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
                             <path d="M1644,11.2V173H0V37.57c53.29,18,112.9,37.21,181.7,45.23C306.45,97.34,514.5,53.4,651.15,37.85s519.31,37.44,669.65,27.52C1433.94,57.9,1579.1,26.35,1644,11.2Z" style="fill:#FFF1B9" />
                         </svg>
                     </figure>
+-->
 
-                    <h1 class="blue col-8 pt-4">
+                    <h2 class="blue col-8 pt-0">
                         Tools
-                    </h1>
-                    <h4 class="dark-blue col-7 offset-2 offset-lg-2">I can use</h4>
+                    </h2>
+                    <h4 class="dark-blue col-8 offset-2 offset-lg-2">I can use</h4>
 
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3 offset-lg-1">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
+                    <div class="illustrator d-flex align-items-center col-5 offset-1 offset-lg-0 col-lg-3 offset-lg-0 pl-lg-0">
+                        <img src="icons/circle-80.svg" class="m-2 my-3 mr-lg-3" width="80px" alt="">
                         <h5 class="">illustrator</h5>
                     </div>
 
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
+                    <div class="illustrator d-flex align-items-center col-5 col-lg-3 pl-lg-0">
+                        <img src="icons/circle-70.svg" class="m-2 my-3 mr-lg-3" width="80px" alt="">
                         <h5 class="">inDesign</h5>
                     </div>
 
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
-                        <h5 class="">XD</h5>
-                    </div>
-
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3 offset-lg-2">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
+                    <div class="illustrator d-flex align-items-center col-5 offset-1 offset-lg-0 col-lg-3 pl-lg-0">
+                        <img src="icons/circle-50.svg" class="m-2 my-3 mr-lg-3" width="80px" alt="">
                         <h5 class="">photoshop</h5>
                     </div>
 
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
+                    <div class="illustrator d-flex align-items-center col-5 col-lg-3 offset-lg-0 pl-lg-0">
+                        <img src="icons/circle-90.svg" class="m-2 my-3 mr-lg-3 my-2 my-lg-4" width="80px" alt="">
+                        <h5 class="">XD</h5>
+                    </div>
+
+                    <div class="illustrator d-flex align-items-center col-5 offset-1 offset-lg-0 col-lg-3 ml-lg-4">
+                        <img src="icons/circle-60.svg" class="m-2 my-3 m-lg-3" width="80px" alt="">
                         <h5 class="">wordpress</h5>
                     </div>
 
-                    <div class="illustrator d-flex align-items-center col-6 col-lg-3">
-                        <img src="icons/hringur-08.svg" class="m-2 my-3 m-lg-4" width="80px" alt="">
-                        <h5 class="">html & css</h5>
+                    <div class="illustrator d-flex align-items-center col-5 col-lg-3">
+                        <img src="icons/circle-70.svg" class="m-2 my-3 m-lg-3" width="80px" alt="">
+                        <h5 class="">bootstrap</h5>
                     </div>
-                </div>
-            </div>
 
+                    <div class="illustrator d-flex align-items-center col-5 offset-1 offset-lg-0 col-lg-3">
+                        <img src="icons/circle-70.svg" class="m-2 my-3 m-lg-3" width="80px" alt="">
+                        <h5 class="">html&amp;css</h5>
+                    </div>
+
+                    <div class="illustrator d-flex align-items-center col-5 col-lg-2">
+                        <img src="icons/circle-30.svg" class="m-2 my-3 m-lg-3" width="80px" alt="">
+                        <h5 class="">javascript</h5>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <svg class="svg svgTools" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
+                <path d="M1644,0V85c-201,29-376.85-6.58-706-2-226.15,3.15-457,29.14-582,17C181,83,8,94,0,91V0Z" style="fill:#FDF2C9" />
+            </svg>
 
 
 
             <!--  Team Player  -->
             <div class="bgYellow">
-                <div class="container">
+                <div class="container py-5 mt-5">
 
                     <div class="row col-xl-10 offset-xl-1 py-5 px-3">
                         <p class="skinny mb-0">what kind of a</p>
-                        <h1 class="green col-12 mb-0"> Team player</h1>
+                        <h2 class="green col-12 mb-0"> Team player</h2>
                         <p class="col-3 offset-7 offset-md-6 offset-lg-5 offset-xl-4 pl-xl-4 skinny mt-0">am I?</p>
                         <p class="col-9 col-lg-4 offset-1 offset-lg-2 pt-4">I find my the result from the “Basadur” personality test, Optimizer, describe me very well.
                             My strenghts lay in the formulating process, taking an idea and finding how we can make it a reality.
@@ -152,37 +174,40 @@
                     </div>
                 </div>
             </div>
+            <svg class="svgTeam" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
+                <path d="M1643,62v78H-1V53.8c128.73-15.15,421.67,10.3,646.09,2.83C859,49.51,1305,34,1643,51.88" style="fill:#FDF2C9" />
+            </svg>
 
 
 
+            <div class="container">
+                <div class="row col-xl-10 offset-xl-1 py-5">
+                    <div class="education col-10 offset-1 col-lg-6 offset-lg-0">
+                        <h2 class="bright-red col-8 mb-0">Experience</h2>
+                        <h3 class="orange col-9 offset-3 pt-0 ">I have worked:</h3>
 
+                        <h5 class="col-7 offset-4"><span class="abitThinnerText">-in a </span>Kindergarten</h5>
+                        <h5 class="col-7 offset-4"><span class="abitThinnerText">-in </span>Hotels</h5>
+                        <h5 class="col-7 offset-4"><span class="abitThinnerText">-in </span>Restaurants</h5>
+                        <h5 class="col-7 offset-4"><span class="abitThinnerText">-on a </span> Farm</h5>
+                        <h5 class="col-7 offset-4"><span class="abitThinnerText">-in a </span>Store</h5>
 
-            <div class="row col-xl-10 offset-xl-1 py-5">
-                <div class="education col-10 offset-1 col-lg-6 offset-lg-0">
-                    <h1 class="bright-red col-8 mb-0">Experience</h1>
-                    <h3 class="orange col-9 offset-3 pt-0 ">I have worked:</h3>
+                    </div>
 
-                    <h5 class="col-7 offset-4"><span class="abitThinnerText">-in a </span>Kindergarten</h5>
-                    <h5 class="col-7 offset-4"><span class="abitThinnerText">-in </span>Hotels</h5>
-                    <h5 class="col-7 offset-4"><span class="abitThinnerText">-in </span>Restaurants</h5>
-                    <h5 class="col-7 offset-4"><span class="abitThinnerText">-on a </span> Farm</h5>
-                    <h5 class="col-7 offset-4"><span class="abitThinnerText">-in a </span>Store</h5>
+                    <div class="experience col-8 offset-3 offset-lg-0 col-lg-6 pt-5">
+                        <h2 class="orange col-8">Education</h2>
+                        <div class="offset-lg-2">
+                            <h5 class="mb-0">Multimedia Design, '19 - '21</h5>
+                            <p class="pl-3">Academic Profession Degree, <br> Københavns Erhversakademi</p>
+                        </div>
+                        <div class="offset-lg-2">
+                            <h5 class="mb-0">Languages and tourism, '13-'17 </h5>
+                            <p class="pl-3">Gymnasium / Junior Collage <br> Menntskólinn á Akureyri</p>
+                        </div>
+                    </div>
+
 
                 </div>
-
-                <div class="experience col-8 offset-3 offset-lg-0 col-lg-6 pt-5">
-                    <h1 class="orange col-8">Education</h1>
-                    <div class="offset-lg-2">
-                        <h5 class="mb-0">Multimedia Design, '19 - '21</h5>
-                        <p class="pl-3">Academic Profession Degree, <br> Københavns Erhversakademi</p>
-                    </div>
-                    <div class="offset-lg-2">
-                        <h5 class="mb-0">Languages and tourism, '13-'17 </h5>
-                        <p class="pl-3">Gymnasium / Junior Collage <br> Menntskólinn á Akureyri</p>
-                    </div>
-                </div>
-
-
             </div>
             <!--
             <div class="row bgYellow">
@@ -198,44 +223,98 @@
             <!--            </div>-->
         </div>
 
+        <!--         style="background-color: #FFF5F5" -->
+        <!--
+        <div id="myWork" class="container">
+            <div class="row d-flex align-items-center">
+
+                <h1 class="yellow col-11 mt-5">My Work</h1>
+
+                <a href="pages/webfeature.html" class="col-10 col-lg-6 offset-lg-1 pt-lg-0">
+                    <img src="img/work-12.jpg" alt="" class="col-12">
+                </a>
+
+                <a href="pages/kokomjolk.html" class="col-4 col-lg-3 offset-lg-1 mt-lg-5">
+                    <img src="img/woork-14.jpg" alt="" class="col-12" style="border:1px solid grey;">
+                </a>
 
 
-        <div class="" style="background-color: #FFF5F5">
+
+                <a href="pages/myk.html" class="col-6 col-lg-3 offset-lg-1 mt-lg-0">
+                    <img src="img/work-15.jpg" alt="" class="col-12">
+                </a>
+
+                <a href="pages/foodsharing.html" class="foodsharingImg col-7 col-lg-6 offset-1 offset-lg-1 mt-lg-3">
+                    <img src="img/work-13.jpg" alt="" class="col-12">
+                </a>
+
+                <a href="pages/kopenhagen.html" class="col-8 col-lg-6 offset-lg-4 mt-5 pt-5">
+                    <img src="img/work-11.jpg" alt="" class="col-12 mb-5" style="border:1px solid grey;">
+                </a>
+
+            </div>
+
+        </div>
+-->
+
+
+
+        <div class="">
+            <svg class="svgWork" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
+                <path d="M0,141V109.06c64.9-7.56,210.06-16.92,323.2-20.65,150.34-5,300,13.36,435.8,2.68,235-18.47,446.21-14,571-7,97,5.49,244,11.48,314,18.19V141Z" style="fill:#ffffff" />
+            </svg>
             <div id="myWork" class="container">
-                <div class="row d-flex align-items-center">
+                <div class="row col-xl-10 offset-xl-1">
 
-                    <h1 class="bright-red col-11">My Work</h1>
-
-                    <a href="pages/webfeature.html" class="col-10 col-lg-6 offset-lg-1 pt-lg-5">
-                        <img src="img/faengsel.png" alt="" class="col-12">
-                    </a>
-
-                    <a href="pages/kokomjolk.html" class="col-4 col-lg-3 offset-lg-1 mt-lg-5">
-                        <img src="img/kokomjolk.png" alt="" class="col-12">
-                    </a>
+                    <h1 class="yellow col-11 mt-5">My Work</h1>
 
 
 
-                    <a href="pages/myk.html" class="col-6 col-lg-4 offset-lg-2 mt-lg-5">
-                        <img src="img/myk.png" alt="" class="col-12">
-                    </a>
 
-                    <a href="pages/foodsharing.html" class="foodsharingImg col-7 col-lg-5 offset-1">
-                        <img src="img/foodsharing.png" alt="" class="col-12">
-                    </a>
 
-                    <a href="pages/kopenhagen.html" class="col-8 col-lg-6 offset-lg-6 mt-5">
-                        <img src="img/kopenhagen.png" alt="" class="col-12">
-                    </a>
+
+                    <div class="leftWork col-12 col-md-8">
+                        <a href="pages/webfeature.html" class="">
+                            <img src="img/work-12.jpg" alt="" class="col-10 offset-1 py-5">
+                        </a>
+                        <a href="pages/foodsharing.html" class="">
+                            <img src="img/work-13.jpg" alt="" class="col-10 offset-1 pb-5 my-4">
+                        </a>
+
+                        <a href="pages/kopenhagen.html" class="">
+                            <img src="img/work-11.jpg" alt="" class="col-10 offset-1 " style="border:1px solid grey;">
+                        </a>
+                    </div>
+
+
+                    <div class="rightWork col-7 offset-3 offset-md-0 col-md-4 mt-4">
+                        <a href="pages/kokomjolk.html" class="">
+                            <img src="img/woork-14.jpg" alt="" class="col-10 my-5" style="border:1px solid grey;">
+                        </a>
+                        <a href="pages/myk.html" class="">
+                            <img src="img/work-15.jpg" alt="" class="col-10 pt-4">
+                        </a>
+                    </div>
+
+
+
+
+
+
 
                 </div>
 
             </div>
         </div>
+        <figure class="dividerFigure">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1644 138">
+                <path d="M1644,0V51.2c-64.9,15.15-210.06,46.7-323.2,54.17-150.34,9.92-533-43.07-669.65-27.52s-344.7,59.49-469.45,45C112.9,114.78,53.29,95.53,0,77.57V0Z" style="fill:#fff" />
+            </svg>
+        </figure>
 
-        <div class="bgRed">
-            <div id="letsTalk" class="container bgRed py-5">
-                <div class="row">
+        <div class="bgRed pt-5">
+            <div id="letsTalk" class="container py-5">
+                <div class="row pt-4">
                     <h1 class="white col-10 my-4">Let's talk!</h1>
                     <div class="d-flex align-items-center col-8 offset-1 col-lg-6 offset-lg-2 py-3"><img src="icons/phone.png" alt="" width="60px"><a href="tel:+4550195059" class="white">
                             <h5>+45 50 19 50 59</h5>

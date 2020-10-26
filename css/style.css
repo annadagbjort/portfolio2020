@@ -18,6 +18,10 @@
     --body-font: "poppins", sans-serif;
 }
 
+* {
+    /*    scroll-behavior: smooth;*/
+}
+
 .logo {
     width: 150px;
 }
@@ -53,13 +57,14 @@ h3 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.3em;
     font-weight: 800;
 
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.8em;
+    font-weight: 800;
 }
 
 a {
@@ -72,15 +77,21 @@ strong {
     font-weight: 500;
 }
 
+.navbar-nav {
+    top: 80px;
+}
+
 .navbar-toggler {
     position: fixed;
     right: 10px;
+    top: 30px;
 }
 
 .nav-link {
     font-family: "montserrat", sans-serif;
     font-weight: 800;
     color: aliceblue;
+    font-size: 1.1em;
 }
 
 .white {
@@ -140,12 +151,33 @@ a {
     /*    border: solid;*/
     padding: 10px 20px;
     width: 230px;
-    color: var(--dark-blue-color);
-    background: var(--yellow-color);
+    color: white;
+    background: var(--blue-color);
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.myBtn:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+a:hover {
+    /*    color: white;*/
+}
+
+.leftWork a:hover,
+.rightWork a:hover {
+    opacity: 0.8;
+}
+
+#letsTalk a:hover {
+    color: lightpink;
+    opacity: 1;
 }
 
 .botBorder {
@@ -156,8 +188,22 @@ a {
 }
 
 .imageProduct {
-    border: solid 0.18em;
+    border: solid 0.1em;
 }
+
+.svgTools {
+    margin-bottom: -100px;
+}
+
+.svgTeam {
+    margin-top: -60px;
+}
+
+.svgWork {
+    margin-top: -100px;
+}
+
+
 
 .dividerFigure {
     margin: 0px -0.75rem -40px;
@@ -216,12 +262,13 @@ a {
         /*        margin-bottom: -60px;*/
     }
 
-    h1 {
+    h2 {
         margin-left: 40px;
     }
 
     .welcome {
         font-size: 7vw;
+        margin-left: 40px;
     }
 
     .thinnerText {
@@ -251,6 +298,11 @@ a {
         position: relative;
     }
 
+    .relati {
+        position: relative;
+        /*    padding-top: 10px;*/
+    }
+
     .dividerFigure {
         margin-bottom: -60px;
         z-index: 3;
@@ -263,6 +315,7 @@ a {
 
         position: absolute;
         bottom: 0px;
+        /*        z-index: ;*/
     }
 
     .meImg {
@@ -271,6 +324,7 @@ a {
         margin-left: auto;
         margin-right: auto;
         width: 410px;
+
     }
 
     .leftSide {
