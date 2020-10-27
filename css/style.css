@@ -122,6 +122,10 @@ strong {
     color: var(--dark-blue-color)
 }
 
+.red {
+    color: indianred;
+}
+
 .thinnerText {
     font-weight: 300;
 }
@@ -192,7 +196,7 @@ a:hover {
 }
 
 .svgTools {
-    margin-bottom: -100px;
+    margin-bottom: -150px;
 }
 
 .svgTeam {
@@ -200,13 +204,16 @@ a:hover {
 }
 
 .svgWork {
-    margin-top: -100px;
+    margin-top: -60px;
 }
 
-
+.svgFooter {
+    margin-top: -50px;
+}
 
 .dividerFigure {
-    margin: 0px -0.75rem -40px;
+    /*    margin: 0px -0.75rem -40px;*/
+    margin-bottom: -30px;
     padding-top: 0px;
     /*    z-index: 3;*/
 
@@ -287,6 +294,39 @@ a:hover {
     .portf {
         font-size: 5.3vw;
     }
+
+
+
+    .svgTools {
+        margin-bottom: -100px;
+    }
+
+    .svgTeam {
+        margin-top: -60px;
+    }
+
+    .svgWork {
+        margin-top: -90px;
+    }
+
+    .svgFooter {
+        margin-top: -90px;
+    }
+
+    .dividerFigure {
+        /*    margin: 0px -0.75rem -40px;*/
+        margin-bottom: -50px;
+        padding-top: 0px;
+        /*    z-index: 3;*/
+
+    }
+
+    .dividerFigureTop {
+        margin: -40px 0;
+        padding: 0;
+        width: 100%;
+    }
+
 
 }
 
