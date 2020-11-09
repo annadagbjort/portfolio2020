@@ -13,6 +13,7 @@
     --blue-color: rgb(6, 178, 188);
     --dark-blue-color: #123958;
     --black-color: #212121;
+    --dark-purple-color: #37224B;
 
     --header-font: "montserrat", sans-serif;
     --body-font: "poppins", sans-serif;
@@ -48,6 +49,20 @@ body {
     font-family: "poppins", sans-serif;
 }
 
+/*
+.headerColor {
+    background-color: #FFFFEB;
+    height: 150px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+*/
+header {
+    background-color: #FFFFEB;
+    margin-bottom: 80px;
+}
+
 h1,
 h2,
 h3 {
@@ -57,14 +72,23 @@ h3 {
 }
 
 h1 {
-    font-size: 3.3em;
+    /*    font-size: 3.3em;*/
     font-weight: 800;
 
 }
 
 h2 {
-    font-size: 2.8em;
+    /*    font-size: 2.8em;*/
     font-weight: 800;
+}
+
+p {
+    /*    font-size: 1.1em;*/
+}
+
+.projectHeader {
+    font-size: 2.6em;
+    margin-left: 0;
 }
 
 a {
@@ -78,8 +102,10 @@ strong {
 }
 
 .navbar-nav {
-    top: 80px;
+    /*        top: 80px;*/
+    /*    margin-top: -80px;*/
 }
+
 
 .navbar-toggler {
     position: fixed;
@@ -122,12 +148,27 @@ strong {
     color: var(--dark-blue-color)
 }
 
+.dark-purple {
+    color: var(--dark-purple-color)
+}
+
 .red {
     color: indianred;
 }
 
 .thinnerText {
     font-weight: 300;
+}
+
+.underline {
+    height: 6px;
+    /*    width: 190px;*/
+    margin-top: -5px;
+    margin-bottom: 15px;
+    background-color: var(--dark-purple-color);
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
 }
 
 svg {
@@ -154,7 +195,7 @@ a {
     text-decoration: none;
     /*    border: solid;*/
     padding: 10px 20px;
-    width: 230px;
+    width: 180px;
     color: white;
     background: var(--blue-color);
     text-align: center;
@@ -163,6 +204,7 @@ a {
     margin-right: auto;
     border-radius: 5px;
     font-weight: 500;
+    background-color: var(--dark-purple-color);
 }
 
 .myBtn:hover {
@@ -251,6 +293,24 @@ a:hover {
     margin-top: -80px;
 }
 
+/*
+.rightProjectText {
+    order: 1;
+}
+
+.projectText {
+    order: 3;
+}
+*/
+
+.dokdok {
+    margin: 0px;
+}
+
+.goals {
+    margin-top: -6px;
+}
+
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .welcome {
@@ -259,6 +319,26 @@ a:hover {
 
     .logo {
         width: 180px;
+    }
+
+    .projectHeader {
+        font-size: 4em;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3.3em;
+        font-weight: 800;
+
+    }
+
+    h2 {
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 1.1em;
     }
 }
 
@@ -326,7 +406,6 @@ a:hover {
         padding: 0;
         width: 100%;
     }
-
 
 }
 
