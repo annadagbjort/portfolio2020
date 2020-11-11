@@ -88,6 +88,11 @@ header {
     margin-bottom: 80px;
 }
 
+.footerText {
+    /*    font-size: 1em;*/
+    font-weight: 500;
+}
+
 /**/
 h1,
 h2,
@@ -194,6 +199,10 @@ strong {
     background-color: var(--dark-purple-color);
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.9;
+}
+
+.icons {
     opacity: 0.9;
 }
 
