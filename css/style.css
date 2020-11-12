@@ -6,14 +6,16 @@
     --orange-color: #FD921E;
     --orange-bg-color: #FFB96F;
     --yellow-color: #FED219;
-    --yellow-bg-color: rgb(254, 210, 25, 0.3);
+    /*    --yellow-bg-color: rgb(254, 210, 25, 0.3);*/
+    --yellow-bg-color: #FFF9B5;
     --bright-red-color: #FD5D3D;
     --red-bg-color: #F76D52;
     --green-color: #3A9A3A;
     --blue-color: rgb(6, 178, 188);
     --dark-blue-color: #123958;
     --black-color: #212121;
-    --dark-purple-color: #37224B;
+    /*    --dark-purple-color: #37224B;*/
+    --dark-purple-color: #4A3062;
 
     --header-font: "montserrat", sans-serif;
     --body-font: "poppins", sans-serif;
@@ -97,9 +99,9 @@ header {
 h1,
 h2,
 h3 {
-    font-family: "montserrat", sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 700;
-
+    color: var(--dark-purple-color);
 }
 
 h1 {
@@ -126,7 +128,9 @@ a {
     text-decoration: none;
 }
 
-.welcome {}
+.welcome {
+    font-family: "montserrat", "poppins", sans-serif;
+}
 
 strong {
     font-weight: 500;
