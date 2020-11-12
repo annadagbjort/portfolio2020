@@ -20,7 +20,7 @@
 }
 
 * {
-    /*    scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -39,6 +39,7 @@
 
 .bgRed {
     background-color: var(--red-bg-color);
+    background-color: #F86F54;
 }
 
 .bgPink {
@@ -61,6 +62,18 @@ body {
     font-family: "poppins", sans-serif;
 }
 
+.backgroundImage {
+    margin: 0px -10px;
+    ;
+    /*    width:100vw;*/
+    /*    height:40vh;*/
+    /*    background-color: #F5C0A4;*/
+}
+
+.backgroundImage > h1 {
+    margin-bottom: -100px;
+}
+
 /*
 .headerColor {
     background-color: #FFFFEB;
@@ -73,6 +86,11 @@ body {
 header {
     background-color: #FFFFEB;
     margin-bottom: 80px;
+}
+
+.footerText {
+    /*    font-size: 1em;*/
+    font-weight: 500;
 }
 
 /**/
@@ -181,6 +199,10 @@ strong {
     background-color: var(--dark-purple-color);
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.9;
+}
+
+.icons {
     opacity: 0.9;
 }
 
@@ -461,6 +483,15 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
         width: 410px;
+
+    }
+
+    .meImgHvit {
+        /*        max-height: 1000px;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
 
     }
 
