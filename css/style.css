@@ -17,12 +17,12 @@
     /*    --dark-purple-color: #37224B;*/
     --dark-purple-color: #4A3062;
 
-    --header-font: "montserrat", sans-serif;
+    --header-font: "poppins", sans-serif;
     --body-font: "poppins", sans-serif;
 }
 
 * {
-    scroll-behavior: smooth;
+    /*    scroll-behavior: smooth;*/
 }
 
 .logo {
@@ -40,8 +40,23 @@
 }
 
 .bgRed {
-    background-color: var(--red-bg-color);
-    background-color: #F86F54;
+    /*    background-color: var(--red-bg-color);*/
+    /*        background-color: #F86F54;*/
+    background-color: rgb(248, 111, 84);
+}
+
+.pinkish {
+    color: #4A0000;
+
+    /*    color: #FFF2F2;*/
+    opacity: 0.95;
+}
+
+.bgRed p,
+.bgRed a {
+    font-weight: 500;
+    color: #4A0000;
+    /*    color: #7B1D1D;*/
 }
 
 .bgPink {
@@ -86,8 +101,15 @@ body {
 }
 */
 header {
-    background-color: #FFFFEB;
-    margin-bottom: 80px;
+    /*    background-color: #FFFFEB;*/
+    background-color: #FFFFF0;
+    /*    margin-bottom: 80px;*/
+}
+
+.lightYellow {
+    background-color: #FFFFF0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footerText {
@@ -105,15 +127,28 @@ h3 {
 }
 
 h1 {
-    /*    font-size: 3.3em;*/
+    /*        font-size: 3.3em;*/
     font-weight: 800;
 
 }
 
 h2 {
-    /*    font-size: 2.8em;*/
+    font-size: 2.4em;
     font-weight: 800;
 }
+
+/*
+    h1 {
+        font-size: 3.3em;
+        font-weight: 800;
+
+    }
+
+    h2 {
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+*/
 
 p {
     /*    font-size: 1.1em;*/
@@ -137,6 +172,7 @@ li {
 
 .welcome {
     font-family: "montserrat", "poppins", sans-serif;
+    font-size: 11vw;
 }
 
 strong {
@@ -332,8 +368,9 @@ a:hover {
 .meFigure {}
 
 .portf {
-    margin-top: -30px;
+    margin-top: -40px;
     font-weight: 800;
+    font-size: 8vw;
 }
 
 .foodsharingImg {
@@ -392,6 +429,10 @@ a:hover {
     p {
         font-size: 1.1em;
     }
+
+    #whoAmI p {
+        text-align: center;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -406,8 +447,8 @@ a:hover {
     }
 
     .welcome {
-        font-size: 7vw;
-        margin-left: 40px;
+        /*        font-size: 7vw;*/
+        /*        margin-left: 40px;*/
     }
 
     .thinnerText {
@@ -427,6 +468,9 @@ a:hover {
         font-size: 5.3vw;
     }
 
+    #whoAmI p {
+        text-align: left;
+    }
 
 
     .svgTools {
@@ -459,26 +503,10 @@ a:hover {
         width: 100%;
     }
 
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .welcome {}
-
     .aboutMe {
         position: relative;
     }
 
-    .relati {
-        position: relative;
-        /*    padding-top: 10px;*/
-    }
-
-    .dividerFigure {
-        margin-bottom: -60px;
-        z-index: 3;
-        position: relative;
-    }
 
     .meFigure {
         /*        order: 1;*/
@@ -507,6 +535,10 @@ a:hover {
 
     }
 
+    .meImgHvit {
+        padding: 0 40px 0 50px;
+    }
+
     .leftSide {
         padding: 0px;
         /*        margin-right: -150px;*/
@@ -527,13 +559,35 @@ a:hover {
     .aboutMeBullets {
         margin-top: 42px;
     }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+    /*
+    .relati {
+        position: relative;
+            padding-top: 10px;
+    }
+*/
+
+    /*
+    .dividerFigure {
+        margin-bottom: -60px;
+        z-index: 3;
+        position: relative;
+    }
+*/
+
+
 
     h1 {
         margin-left: 70px;
     }
 
     .welcome {
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .thinnerText {
@@ -542,8 +596,12 @@ a:hover {
     }
 
     .portf {
-        font-size: 4.8vw;
+        font-size: 5vw;
 
+    }
+
+    .meImgHvit {
+        padding: 0 45px 0 25px;
     }
 
 }
@@ -555,7 +613,7 @@ a:hover {
     }
 
     .welcome {
-        font-size: 5vw;
+        /*        font-size: 6vw;*/
     }
 
     .thinnerText {
@@ -563,17 +621,22 @@ a:hover {
     }
 
     .portf {
-        font-size: 4vw;
+        /*        font-size: 4vw;*/
 
     }
 
+    .meImgHvit {
+        padding: 0 30px 0 40px;
+    }
 }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
 
     .welcome {
-        font-size: 4.3em;
+        /*        font-size: 4.3em;*/
+        /*        font-size: 8vw;*/
+        font-size: 7em;
     }
 
     .thinnerText {
@@ -581,7 +644,23 @@ a:hover {
     }
 
     .portf {
-        font-size: 3.55em;
+        /*        font-size: 3.55em;*/
+        /*        font-size: 5vw;*/
+        font-size: 5em;
+    }
 
+    nav {
+        /*        Same as .container   */
+        max-width: 1520px;
+        --bs-gutter-x: 1.5rem;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    header {
+        padding-top: 20px;
     }
 }
