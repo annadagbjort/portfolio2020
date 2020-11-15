@@ -757,6 +757,10 @@ a:hover {
         margin-left: auto;
     }
 
+    .navbar-collapse {
+        /*        position: fixed;*/
+    }
+
     header {
         padding-top: 20px;
     }
