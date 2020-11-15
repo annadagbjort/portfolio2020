@@ -238,11 +238,13 @@ strong {
 }
 
 
+/*
 .navbar-toggler {
     position: fixed;
     right: 10px;
     top: 30px;
 }
+*/
 
 .nav-link {
     font-family: "montserrat", sans-serif;
@@ -357,7 +359,7 @@ a:hover {
     /*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)*/
 }
 
-#letsTalk a:hover {
+#letsTalk a h5:hover {
     color: lightpink;
     opacity: 1;
 }
@@ -530,7 +532,7 @@ a:hover {
     }
 
     .exP {
-        z-index: 1;
+        z-index: 2;
     }
 
 
