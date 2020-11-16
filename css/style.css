@@ -134,6 +134,10 @@ body {
     margin-bottom: -100px;
 }
 
+.nav-link:hover {
+    opacity: 0.6;
+}
+
 /*
 .headerColor {
     background-color: #FFFFEB;
@@ -326,6 +330,10 @@ svg {
 
 a {
     color: var(--black-color);
+}
+
+.smaller {
+    font-size: 0.7em;
 }
 
 .myBtn {
@@ -759,9 +767,7 @@ a:hover {
         margin-left: auto;
     }
 
-    .navbar-collapse {
-        /*        position: fixed;*/
-    }
+
 
     header {
         padding-top: 20px;
