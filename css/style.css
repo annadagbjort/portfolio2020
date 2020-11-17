@@ -6,16 +6,18 @@
     --orange-color: #FD921E;
     --orange-bg-color: #FFB96F;
     --yellow-color: #FED219;
-    --yellow-bg-color: rgb(254, 210, 25, 0.3);
+    /*    --yellow-bg-color: rgb(254, 210, 25, 0.3);*/
+    --yellow-bg-color: #FFF9B5;
     --bright-red-color: #FD5D3D;
     --red-bg-color: #F76D52;
     --green-color: #3A9A3A;
     --blue-color: rgb(6, 178, 188);
     --dark-blue-color: #123958;
     --black-color: #212121;
-    --dark-purple-color: #37224B;
+    /*    --dark-purple-color: #37224B;*/
+    --dark-purple-color: #4A3062;
 
-    --header-font: "montserrat", sans-serif;
+    --header-font: "poppins", sans-serif;
     --body-font: "poppins", sans-serif;
 }
 
@@ -38,8 +40,25 @@
 }
 
 .bgRed {
-    background-color: var(--red-bg-color);
-    background-color: #F86F54;
+    /*    background-color: var(--red-bg-color);*/
+    /*        background-color: #F86F54;*/
+    background-color: rgb(248, 111, 84);
+}
+
+.pinkish {
+    color: #4A0000;
+
+    /*    color: #FFF2F2;*/
+    opacity: 0.95;
+}
+
+.bgRed p,
+.bgRed a,
+.bgRed h5 {
+    font-weight: 400;
+    color: #4A0000;
+    /*        color: #7B1D1D;*/
+    color:
 }
 
 .bgPink {
@@ -58,6 +77,47 @@
     /*    padding: 0 2em;*/
 }
 
+.line {
+    background-color: #CCC19F;
+    height: 5px;
+    margin-left: 10px;
+    margin-top: -3px;
+    opacity: 0.8;
+}
+
+.toolsLine {
+    width: 135px;
+}
+
+.teamLine {
+    width: 250px;
+    margin-top: -6px;
+
+}
+
+.exLine {
+    width: 106px;
+    margin-top: -6px;
+    margin-left: 0px;
+    z-index: -1;
+}
+
+.edLine {
+    width: 240px;
+    margin-top: -12px;
+    margin-left: 0px;
+    z-index: -1;
+}
+
+.teamP {
+    z-index: 1;
+}
+
+.exP {
+    z-index: 1;
+}
+
+
 body {
     font-family: "poppins", sans-serif;
 }
@@ -74,6 +134,10 @@ body {
     margin-bottom: -100px;
 }
 
+.nav-link:hover {
+    opacity: 0.6;
+}
+
 /*
 .headerColor {
     background-color: #FFFFEB;
@@ -84,8 +148,25 @@ body {
 }
 */
 header {
-    background-color: #FFFFEB;
-    margin-bottom: 80px;
+    /*    background-color: #FFFFEB;*/
+    background-color: #FFFFF0;
+    /*    margin-bottom: 80px;*/
+}
+
+.bgLightYellow {
+    background-color: #FFFFF0;
+
+}
+
+.lightYellow {
+    background-color: #FFFFF0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#letsTalk p {
+    font-weight: 300;
+    /*    color: white;*/
 }
 
 .footerText {
@@ -97,21 +178,34 @@ header {
 h1,
 h2,
 h3 {
-    font-family: "montserrat", sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 700;
-
+    color: var(--dark-purple-color);
 }
 
 h1 {
-    /*    font-size: 3.3em;*/
+    /*        font-size: 3.3em;*/
     font-weight: 800;
 
 }
 
 h2 {
-    /*    font-size: 2.8em;*/
+    font-size: 2.4em;
     font-weight: 800;
 }
+
+/*
+    h1 {
+        font-size: 3.3em;
+        font-weight: 800;
+
+    }
+
+    h2 {
+        font-size: 2.8em;
+        font-weight: 800;
+    }
+*/
 
 p {
     /*    font-size: 1.1em;*/
@@ -126,7 +220,17 @@ a {
     text-decoration: none;
 }
 
-.welcome {}
+li {
+    list-style: none;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.welcome {
+    font-family: "montserrat", "poppins", sans-serif;
+    font-size: 11vw;
+}
 
 strong {
     font-weight: 500;
@@ -138,11 +242,13 @@ strong {
 }
 
 
+/*
 .navbar-toggler {
     position: fixed;
     right: 10px;
     top: 30px;
 }
+*/
 
 .nav-link {
     font-family: "montserrat", sans-serif;
@@ -203,7 +309,7 @@ strong {
 }
 
 .icons {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 svg {
@@ -224,6 +330,10 @@ svg {
 
 a {
     color: var(--black-color);
+}
+
+.smaller {
+    font-size: 0.7em;
 }
 
 .myBtn {
@@ -251,12 +361,13 @@ a:hover {
     /*    color: white;*/
 }
 
-.leftWork a:hover,
-.rightWork a:hover {
+.leftWork img:hover,
+.rightWork img:hover {
     opacity: 0.8;
+    /*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1)*/
 }
 
-#letsTalk a:hover {
+#letsTalk a h5:hover {
     color: lightpink;
     opacity: 1;
 }
@@ -314,14 +425,16 @@ a:hover {
 .skinny {
     padding: 0;
     /*    margin: -20px 0px;*/
+    font-weight: 500;
 
 }
 
 .meFigure {}
 
 .portf {
-    margin-top: -30px;
+    margin-top: -40px;
     font-weight: 800;
+    font-size: 8vw;
 }
 
 .foodsharingImg {
@@ -380,10 +493,57 @@ a:hover {
     p {
         font-size: 1.1em;
     }
+
+    #whoAmI p {
+        text-align: center;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+
+
+    .line {
+        background-color: #CCC19F;
+        height: 5px;
+        margin-left: 48px;
+        margin-top: -3px;
+        opacity: 0.8;
+    }
+
+    .toolsLine {
+        width: 135px;
+    }
+
+    .teamLine {
+        width: 250px;
+        margin-top: -6px;
+
+    }
+
+    .exLine {
+        width: 106px;
+        margin-top: -6px;
+        margin-left: 40px;
+        z-index: -1;
+    }
+
+    .edLine {
+        width: 240px;
+        margin-top: -12px;
+        margin-left: 40px;
+        z-index: -1;
+    }
+
+    .teamP {
+        z-index: 1;
+    }
+
+    .exP {
+        z-index: 2;
+    }
+
+
 
     .dividerFigure {
         /*        margin-bottom: -60px;*/
@@ -394,8 +554,8 @@ a:hover {
     }
 
     .welcome {
-        font-size: 7vw;
-        margin-left: 40px;
+        /*        font-size: 7vw;*/
+        /*        margin-left: 40px;*/
     }
 
     .thinnerText {
@@ -415,6 +575,9 @@ a:hover {
         font-size: 5.3vw;
     }
 
+    #whoAmI p {
+        text-align: left;
+    }
 
 
     .svgTools {
@@ -447,26 +610,10 @@ a:hover {
         width: 100%;
     }
 
-}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .welcome {}
-
     .aboutMe {
         position: relative;
     }
 
-    .relati {
-        position: relative;
-        /*    padding-top: 10px;*/
-    }
-
-    .dividerFigure {
-        margin-bottom: -60px;
-        z-index: 3;
-        position: relative;
-    }
 
     .meFigure {
         /*        order: 1;*/
@@ -495,6 +642,10 @@ a:hover {
 
     }
 
+    .meImgHvit {
+        padding: 0 40px 0 50px;
+    }
+
     .leftSide {
         padding: 0px;
         /*        margin-right: -150px;*/
@@ -515,13 +666,35 @@ a:hover {
     .aboutMeBullets {
         margin-top: 42px;
     }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+    /*
+    .relati {
+        position: relative;
+            padding-top: 10px;
+    }
+*/
+
+    /*
+    .dividerFigure {
+        margin-bottom: -60px;
+        z-index: 3;
+        position: relative;
+    }
+*/
+
+
 
     h1 {
         margin-left: 70px;
     }
 
     .welcome {
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .thinnerText {
@@ -530,8 +703,12 @@ a:hover {
     }
 
     .portf {
-        font-size: 4.8vw;
+        font-size: 5vw;
 
+    }
+
+    .meImgHvit {
+        padding: 0 45px 0 25px;
     }
 
 }
@@ -543,7 +720,7 @@ a:hover {
     }
 
     .welcome {
-        font-size: 5vw;
+        /*        font-size: 6vw;*/
     }
 
     .thinnerText {
@@ -551,17 +728,22 @@ a:hover {
     }
 
     .portf {
-        font-size: 4vw;
+        /*        font-size: 4vw;*/
 
     }
 
+    .meImgHvit {
+        padding: 0 30px 0 40px;
+    }
 }
 
 /*// XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
 
     .welcome {
-        font-size: 4.3em;
+        /*        font-size: 4.3em;*/
+        /*        font-size: 8vw;*/
+        font-size: 7em;
     }
 
     .thinnerText {
@@ -569,7 +751,25 @@ a:hover {
     }
 
     .portf {
-        font-size: 3.55em;
+        /*        font-size: 3.55em;*/
+        /*        font-size: 5vw;*/
+        font-size: 5em;
+    }
 
+    nav {
+        /*        Same as .container   */
+        max-width: 1520px;
+        --bs-gutter-x: 1.5rem;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x)/ 2);
+        padding-left: calc(var(--bs-gutter-x)/ 2);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    header {
+        padding-top: 20px;
     }
 }
